@@ -34,21 +34,29 @@ export default function App() {
         <div className='main__content'>
           <div className='main__big-cards'>
             <div className='main__card'>
-              <span className='main__card_tag'>Самооценка и самопринятие</span>
-              <span className='main__card_tag'>Self</span>
-              <img className='main__card_image' src='./assets/eggs.png'></img>
-              <h2 className='main__card_text--large'>Эмоциональное выгорание – стадии и симптомы, методы восстановления и профилактики</h2>
-              <span className='main__card_text--small'>Автор: Лиза Файнтух</span>
-              <span className='main__card_text--medium'>Изначально термин «эмоциональное профессиональной сфере и относился...</span>
-              <span className='main__card_text--small'>21.08.2021</span>
+              <div className='main__card_img-block'>
+                <span className='main__card--tag'>Самооценка и самопринятие</span>
+                <span className='main__card--tag'>Self</span>
+                <img className='main__card_image' src='./assets/eggs.png' alt='card_image'></img>
+              </div>
+              <div className='main__card_text-block'>
+                <h2 className='main__card_text--large'>Эмоциональное выгорание – стадии и симптомы, методы восстановления и профилактики</h2>
+                <span className='main__card_text--small'>Автор: Лиза Файнтух</span>
+                <span className='main__card_text--medium'>Изначально термин «эмоциональное профессиональной сфере и относился...</span>
+                <span className='main__card_text--small'>21.08.2021</span>
+              </div>
             </div>
             <div className='main__card'>
-              <span className='main__card_tag'>Self</span>
-              <img className='main__card_image' src='./assets/running.png'></img>
-              <h2 className='main__card_text--large'>Как не утонуть в тревоге и управлять своими страхами</h2>
-              <span className='main__card_text--small'>Автор: Екатерина Бельтюкова</span>
-              <span className='main__card_text--medium'>Один из самых важных навыков, которые может дать работа с психотерапевтом - умение в разных ситуациях по-разному обходиться ...</span>
-              <span className='main__card_text--small'>11.08.2021</span>
+              <div className='main__card_img-block'>
+                <span className='main__card--tag'>Self</span>
+                <img className='main__card_image' src='./assets/running.png' alt='card_image'></img>
+              </div>
+              <div className='main__card_text-block'>
+                <h2 className='main__card_text--large'>Как не утонуть в тревоге и управлять своими страхами</h2>
+                <span className='main__card_text--small'>Автор: Екатерина Бельтюкова</span>
+                <span className='main__card_text--medium'>Один из самых важных навыков, которые может дать работа с психотерапевтом - умение в разных ситуациях по-разному обходиться ...</span>
+                <span className='main__card_text--small'>11.08.2021</span>
+              </div>
             </div>
           </div>
         </div>

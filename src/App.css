@@ -62,26 +62,45 @@ main
 .main__content
 {
   display: flex;
+  flex-direction: column;
 }
 .main__big-cards
 {
   display: flex;
+  height: 500px;
+  justify-content: space-between;
+  gap: 24px;
 }
 .main__card
 {
-  position: relative;
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 260px 240px;
+  overflow: hidden;
   border-radius: 16px;
   border: 1px solid black;
 }
-
-.main__card_tag
-{
-  position: relative;
+.main__card--tag
+{ 
+  position: absolute;
   border-radius: 24px;
   border: 1px solid #C1C5CD;
   gap: 4px;
   padding: 6px 8px;
   margin-top: 20px;
   background-color: #ffffff;
-  z-index: 1;
+  z-index: 2;
+}
+.main__card_img-block
+{
+  position: relative;
+  overflow: hidden;
+}
+.main__card_image
+{
+  display: block;
+  width: calc(100% + 50px);
+  margin-left: -25px;
+  height: auto;
+  margin-top: -120px;
 }
