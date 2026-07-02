@@ -1,11 +1,32 @@
 *
 {
   box-sizing: border-box;
-  font-family:'Montserrat', sans-serif;
+  color: #333333;
 }
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/fonts/static/Montserrat-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/fonts/static/Montserrat-Medium.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/fonts/static/Montserrat-Light.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+  }
 header
 {
-  position: sticky;
+  position: fixed;
   display: flex;
   box-sizing: border-box;
   align-items: center;
@@ -13,7 +34,9 @@ header
   height: 78px;
   justify-content: space-between;
   border-bottom: 2px solid #EFF5FB;
+  background-color: #ffffff;
   padding: 0 120px;
+  z-index: 3;
 }
 .header__logo
 {
@@ -26,26 +49,50 @@ header
   height: 16px;
   gap: 30px;
 }
+.header__nav--item
+{
+  font-size: 14px;
+  font-weight: 500;
+}
+.header__btn
+{
+  width: 230px;
+  height: 48px;
+  background-color: #E3F5F5;
+  color: #03B2A5;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Montserrat';
+  border: none;
+  border-radius: 4px;
+  padding: 14px 20px;
+}
 main
 {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  padding: 10px 120px;
+  padding: 78px 120px;
 }
 .main__path-to-blog
 {
+  margin-left: 6px;
+  margin-top: 16px;
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 200;
+  gap: 8px;
 }
 .main__page-name
 {
+  margin: 30px 0;
   font-size: 48px;
   font-weight: 700;
 }
 .main__nav
 {
   display: flex;
+  width: 100%;
+  height: 32px;
   justify-content: start;
   gap: 8px;
 }
@@ -57,50 +104,133 @@ main
   font-size: 14px;
   font-weight: 600;
   padding: 6px 8px;
-  gap: 4px;
 }
 .main__content
 {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 500px 1fr 1fr;
+  gap: 24px;
 }
 .main__big-cards
 {
   display: flex;
-  height: 500px;
-  justify-content: space-between;
   gap: 24px;
+  margin-top: 24px;
+  grid-column: 1/4;
+  grid-row: 1;
 }
 .main__card
 {
   display: grid;
-  grid-template-columns: 1;
-  grid-template-rows: 260px 240px;
+  width: 100%;
+  height: 475px;
+  grid-template-rows: 260px 1fr;
   overflow: hidden;
   border-radius: 16px;
-  border: 1px solid black;
+  border: 1px solid #DEDEDE;
+}
+.main__tags
+{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
 }
 .main__card--tag
-{ 
-  position: absolute;
+{
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+  align-self: flex-start;
   border-radius: 24px;
   border: 1px solid #C1C5CD;
   gap: 4px;
   padding: 6px 8px;
-  margin-top: 20px;
+  margin-top: 9px;
+  margin-left: 8px;
   background-color: #ffffff;
-  z-index: 2;
+  z-index: 1;
+  opacity: 80%;
 }
-.main__card_img-block
+.main__card--img-block
 {
   position: relative;
   overflow: hidden;
 }
-.main__card_image
+.main__big-card--image,
+.main__big-card--image-eggs
 {
   display: block;
-  width: calc(100% + 50px);
-  margin-left: -25px;
-  height: auto;
-  margin-top: -120px;
+  justify-self: center;
+  width: 50%;
+  transform: scale(2.05);
+  transform-origin: center;
+}
+.main__card--image
+{
+  width: 100%;
+  height: 100%;
+}
+.main__card--text-block
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 16px;
+}
+.main__card--text-block-main
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 4px;
+}
+.main__text--large
+{
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+.main__text--medium
+{
+  font-size: 14px;
+  font-weight: 400;
+  margin: 4px 0;
+}
+.main__text--small
+{
+  font-size: 12px;
+  font-weight: 200;
+}
+.main__button
+{
+  width: 182px;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 700;
+  align-self: center;
+  cursor: pointer;
+  background-color: #35B3A9;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  margin: 56px;
+}
+.footer
+{
+  display: flex;
+  flex-direction: column;
+  background-color: #2963A3;
+  padding: 40px 120px;
+}
+.footer__top
+{
+  display: flex;
+}
+.footer__links
+{
+  border: 1px solid white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
 }

@@ -1,8 +1,16 @@
 :root {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: #ffffff;
 }
 body
 {
   margin: 0;
+}
+button
+{
+  cursor: pointer;
+}
+a
+{
+  cursor: pointer;
 }

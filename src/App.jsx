@@ -34,33 +34,173 @@ export default function App() {
         <div className='main__content'>
           <div className='main__big-cards'>
             <div className='main__card'>
-              <div className='main__card_img-block'>
-                <span className='main__card--tag'>Самооценка и самопринятие</span>
-                <span className='main__card--tag'>Self</span>
-                <img className='main__card_image' src='./assets/eggs.png' alt='card_image'></img>
+              <div className='main__card--img-block'>
+                <div className='main__tags'>
+                  <span className='main__card--tag'>Самооценка и самопринятие</span>
+                  <span className='main__card--tag'>Self</span>
+                </div>
+                <img className='main__big-card--image-eggs' src='./assets/eggs.png' alt='card_image'></img>
               </div>
-              <div className='main__card_text-block'>
-                <h2 className='main__card_text--large'>Эмоциональное выгорание – стадии и симптомы, методы восстановления и профилактики</h2>
-                <span className='main__card_text--small'>Автор: Лиза Файнтух</span>
-                <span className='main__card_text--medium'>Изначально термин «эмоциональное профессиональной сфере и относился...</span>
-                <span className='main__card_text--small'>21.08.2021</span>
+              <div className='main__card--text-block'>
+                <div className='main__card--text-block-main'>
+                  <h2 className='main__text--large'>Эмоциональное выгорание – стадии и симптомы, методы восстановления и профилактики</h2>
+                  <span className='main__text--small'>Автор: Лиза Файнтух</span>
+                  <span className='main__text--medium'>Изначально термин «эмоциональное профессиональной сфере и относился...</span>
+                </div>
+                <span className='main__text--small'>21.08.2021</span>
               </div>
             </div>
             <div className='main__card'>
-              <div className='main__card_img-block'>
-                <span className='main__card--tag'>Self</span>
-                <img className='main__card_image' src='./assets/running.png' alt='card_image'></img>
+              <div className='main__card--img-block'>
+                <div className='main__tags'>
+                  <span className='main__card--tag'>Self</span>
+                </div>
+                <img className='main__big-card--image' src='./assets/running.png' alt='card_image'></img>
               </div>
-              <div className='main__card_text-block'>
-                <h2 className='main__card_text--large'>Как не утонуть в тревоге и управлять своими страхами</h2>
-                <span className='main__card_text--small'>Автор: Екатерина Бельтюкова</span>
-                <span className='main__card_text--medium'>Один из самых важных навыков, которые может дать работа с психотерапевтом - умение в разных ситуациях по-разному обходиться ...</span>
-                <span className='main__card_text--small'>11.08.2021</span>
+              <div className='main__card--text-block'>
+                <div className='main__card--text-block-main'>
+                  <h2 className='main__text--large'>Как не утонуть в тревоге и управлять своими страхами</h2>
+                  <span className='main__text--small'>Автор: Екатерина Бельтюкова</span>
+                  <span className='main__text--medium'>Один из самых важных навыков, которые может дать работа с психотерапевтом - умение в разных ситуациях по-разному обходиться ...</span>
+                </div>
+                <span className='main__text--small'>11.08.2021</span>
               </div>
             </div>
           </div>
+          <div className='main__card'>
+              <div className='main__card--img-block'>
+                <div className='main__tags'>
+                  <span className='main__card--tag'>Самооценка и самопринятие</span>
+                  <span className='main__card--tag'>Психология питания</span>
+                </div>
+                <img className='main__card--image' src='./assets/2.1.png' alt='card_image'></img>
+              </div>
+              <div className='main__card--text-block'>
+                <div className='main__card--text-block-main'>
+                  <h2 className='main__text--large'>Эмоциональное выгорание – стадии и симптомы, методы восстановления и профилактики</h2>
+                  <span className='main__text--small'>Автор: Лиза Файнтух</span>
+                  <span className='main__text--medium'>Изначально термин «эмоциональное профессиональной сфере и относился...</span>
+                </div>
+                <span className='main__text--small'>21.08.2021</span>
+              </div>
+          </div>
+          <div className='main__card'>
+              <div className='main__card--img-block'>
+                <div className='main__tags'>
+                  <span className='main__card--tag'>Self</span>
+                </div>
+                <img className='main__card--image' src='./assets/2.2.png' alt='card_image'></img>
+              </div>
+              <div className='main__card--text-block'>
+                <div className='main__card--text-block-main'>
+                  <h2 className='main__text--large'>Как не утонуть в тревоге и управлять своими страхами</h2>
+                  <span className='main__text--small'>Автор: Екатерина Бельтюкова</span>
+                  <span className='main__text--medium'>Один из самых важных навыков, которые может дать работа с психотерапевтом - умение в разных ситуациях по-разному обходиться ...</span>
+                </div>
+                <span className='main__text--small'>11.08.2021</span>
+              </div>
+          </div>
+          <div className='main__card'>
+              <div className='main__card--img-block'>
+                <div className='main__tags'>
+                  <span className='main__card--tag'>Self</span>
+                </div>
+                <img className='main__card--image' src='./assets/2.3.png' alt='card_image'></img>
+              </div>
+              <div className='main__card--text-block'>
+                <div className='main__card--text-block-main'>
+                  <h2 className='main__text--large'>Как управлять своими эмоциями: 8 шагов</h2>
+                  <span className='main__text--small'>Автор: Екатерина Бельтюкова</span>
+                  <span className='main__text--medium'>Клиенты часто спрашивают, как КОНТРОЛИРОВАТЬ свои негативные эмоции. Пришло время об этом написать!</span>
+                </div>
+                <span className='main__text--small'>07.08.2021</span>
+              </div>
+          </div>
+          <div className='main__card'>
+              <div className='main__card--img-block'>
+                <div className='main__tags'>
+                  <span className='main__card--tag'>Self</span>
+                </div>
+                <img className='main__card--image' src='./assets/3.1.jpg' alt='card_image'></img>
+              </div>
+              <div className='main__card--text-block'>
+                <div className='main__card--text-block-main'>
+                  <h2 className='main__text--large'>Эмоциональное выгорание – стадии и симптомы, методы восстановления и профилактики</h2>
+                  <span className='main__text--small'>Автор: Лиза Файнтух под редакцией  Екатерины Бельтюковой</span>
+                  <span className='main__text--medium'>Изначально термин «эмоциональное я...</span>
+                </div>
+                <span className='main__text--small'>21.08.2021</span>
+              </div>
+          </div>
+          <div className='main__card'>
+              <div className='main__card--img-block'>
+                <div className='main__tags'>
+                  <span className='main__card--tag'>Self</span>
+                </div>
+                <img className='main__card--image' src='./assets/3.2.jpg' alt='card_image'></img>
+              </div>
+              <div className='main__card--text-block'>
+                <div className='main__card--text-block-main'>
+                  <h2 className='main__text--large'>Как не утонуть в тревоге и управлять своими страхами</h2>
+                  <span className='main__text--small'>Автор: Екатерина Бельтюкова</span>
+                  <span className='main__text--medium'>Один из самых важных навыков, которые может дать работа с психотерапевтом - умение в разных ситуациях по-разному обходиться ...</span>
+                </div>
+                <span className='main__text--small'>11.08.2021</span>
+              </div>
+          </div>
+          <div className='main__card'>
+              <div className='main__card--img-block'>
+                <div className='main__tags'>
+                  <span className='main__card--tag'>Self</span>
+                </div>
+                <img className='main__card--image' src='./assets/3.3.jpg' alt='card_image'></img>
+              </div>
+              <div className='main__card--text-block'>
+                <div className='main__card--text-block-main'>
+                  <h2 className='main__text--large'>Как управлять своими эмоциями: 8 шагов</h2>
+                  <span className='main__text--small'>Автор: Екатерина Бельтюкова</span>
+                  <span className='main__text--medium'>Клиенты часто спрашивают, как КОНТРОЛИРОВАТЬ свои негативные эмоции. Пришло время об этом написать!</span>
+                </div>
+                <span className='main__text--small'>07.08.2021</span>
+              </div>
+          </div>
         </div>
+        <button className='main__button'>Ещё</button>
       </main>
+      <footer className='footer'>
+        <div className='footer__top'>
+          <div className='footer__links'>
+            <a className='footer__link'>О нас</a>
+            <a className='footer__link'>Блог</a>
+            <a className='footer__link'>Тарифы</a>
+            <a className='footer__link'>Вебинары</a>
+            <a className='footer__link'>Для бизнеса</a>
+            <a className='footer__link'>Подкаст</a>
+            <a className='footer__link'>Психологам</a>
+            <a className='footer__link'>Сертификат</a>
+            <a className='footer__link'>FAQ</a>
+            <a className='footer__link'>Контакты</a>
+          </div>
+          <div className='footer__feedback'>
+            <h2 className='footer__feedback--large-text'>Одно письмо в неделю со свежими новостями и акциями</h2>
+            <input className='footer__input--email'></input>
+            <button className='footer__input--btn'></button>
+            <span className='footer__feedback--small-text'>Подписываясь, я соглашаюсь на обработку персональных данных в соответствии с ФЗ РФ № 152-ФЗ «О персональных данных», а также с Политикой конфиденциальности</span>
+          </div>
+          <div className='footer__icons'>
+            <img className='footer__icon' alt='icon'></img>
+            <img className='footer__icon' alt='icon'></img>
+            <img className='footer__icon' alt='icon'></img>
+            <img className='footer__icon' alt='icon'></img>
+            <img className='footer__icon' alt='icon'></img>
+          </div>
+        </div>
+        <div className='footer__bottom'>
+          <span className='footer__bottom--text'>©Youtalk, 2018 – 2022</span>
+          <span className='footer__bottom--text'>Юридические документы</span>
+          <span className='footer__bottom--text'>Способы оплаты</span>
+        </div>
+      </footer>
     </div>
   )
 }
