@@ -98,6 +98,9 @@ main
 }
 .main__nav--item
 {
+  display: flex;
+  align-items: center;
+  gap: 4px;
   border-radius: 24px;
   border: 1px solid #C1C5CD;
   background-color: #ffffff;
@@ -140,8 +143,9 @@ main
 {
   font-size: 14px;
   font-weight: 600;
-  display: inline-block;
+  display: flex;
   align-self: flex-start;
+  align-items: center;
   border-radius: 24px;
   border: 1px solid #C1C5CD;
   gap: 4px;
@@ -256,11 +260,9 @@ main
   color: #ffffff;
   margin: 0;
 }
-.footer__input--block
+.footer__input-block
 {
   display: flex;
-  align-items: stretch;
-  gap: -1px;
 }
 .footer__input--email
 {
@@ -269,9 +271,13 @@ main
   padding: 14px 16px;
   font-size: 14px;
   font-weight: 400;
-  color: #9D9D9D;
+  color: #333333;
   border: 1px solid #9D9D9D33;
   border-radius: 4px;
+}
+.footer__input--email:active
+{
+  
 }
 .footer__input--btn
 {

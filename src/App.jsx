@@ -21,9 +21,9 @@ export default function App() {
         <span className='main__path-to-blog'>Главная Блог</span>
         <h1 className='main__page-name'>Блог</h1>
         <div className='main__nav'>
-          <button className='main__nav--item'>Все</button>
+          <button className='main__nav--item'><img className='main__item--image' src='./assets/Smiling_Face.png' alt='nav_img'></img>Все</button>
           <button className='main__nav--item'>Самооценка и самопринятие</button>
-          <button className='main__nav--item'>Self</button>
+          <button className='main__nav--item'><img className='main__item--image' src='./assets/Unicorn.png' alt='nav_img'></img>Self</button>
           <button className='main__nav--item'>Чувства и эмоции</button>
           <button className='main__nav--item'>Тревога</button>
           <button className='main__nav--item'>Упражнения</button>
@@ -36,8 +36,8 @@ export default function App() {
             <div className='main__card'>
               <div className='main__card--img-block'>
                 <div className='main__tags'>
-                  <span className='main__card--tag'>Самооценка и самопринятие</span>
-                  <span className='main__card--tag'>Self</span>
+                  <span className='main__card--tag'><img className='main__tag--image' src='./assets/Unicorn.png' alt='tag-image'></img>Самооценка и самопринятие</span>
+                  <span className='main__card--tag'><img className='main__tag--image' src='./assets/Unicorn.png' alt='tag-image'></img>Self</span>
                 </div>
                 <img className='main__big-card--image-eggs' src='./assets/eggs.png' alt='card_image'></img>
               </div>
@@ -53,7 +53,7 @@ export default function App() {
             <div className='main__card'>
               <div className='main__card--img-block'>
                 <div className='main__tags'>
-                  <span className='main__card--tag'>Self</span>
+                  <span className='main__card--tag'><img className='main__tag--image' src='./assets/Unicorn.png' alt='tag-image'></img>Self</span>
                 </div>
                 <img className='main__big-card--image' src='./assets/running.png' alt='card_image'></img>
               </div>
@@ -70,8 +70,8 @@ export default function App() {
           <div className='main__card'>
               <div className='main__card--img-block'>
                 <div className='main__tags'>
-                  <span className='main__card--tag'>Самооценка и самопринятие</span>
-                  <span className='main__card--tag'>Психология питания</span>
+                  <span className='main__card--tag'><img className='main__tag--image' src='./assets/Unicorn.png' alt='tag-image'></img>Самооценка и самопринятие</span>
+                  <span className='main__card--tag'><img className='main__tag--image' src='./assets/Unicorn.png' alt='tag-image'></img>Психология питания</span>
                 </div>
                 <img className='main__card--image' src='./assets/2.1.png' alt='card_image'></img>
               </div>
@@ -87,7 +87,7 @@ export default function App() {
           <div className='main__card'>
               <div className='main__card--img-block'>
                 <div className='main__tags'>
-                  <span className='main__card--tag'>Self</span>
+                  <span className='main__card--tag'><img className='main__tag--image' src='./assets/Unicorn.png' alt='tag-image'></img>Self</span>
                 </div>
                 <img className='main__card--image' src='./assets/2.2.png' alt='card_image'></img>
               </div>
@@ -103,7 +103,7 @@ export default function App() {
           <div className='main__card'>
               <div className='main__card--img-block'>
                 <div className='main__tags'>
-                  <span className='main__card--tag'>Self</span>
+                  <span className='main__card--tag'><img className='main__tag--image' src='./assets/Unicorn.png' alt='tag-image'></img>Self</span>
                 </div>
                 <img className='main__card--image' src='./assets/2.3.png' alt='card_image'></img>
               </div>
@@ -119,7 +119,7 @@ export default function App() {
           <div className='main__card'>
               <div className='main__card--img-block'>
                 <div className='main__tags'>
-                  <span className='main__card--tag'>Self</span>
+                  <span className='main__card--tag'><img className='main__tag--image' src='./assets/Unicorn.png' alt='tag-image'></img>Self</span>
                 </div>
                 <img className='main__card--image' src='./assets/3.1.jpg' alt='card_image'></img>
               </div>
@@ -135,7 +135,7 @@ export default function App() {
           <div className='main__card'>
               <div className='main__card--img-block'>
                 <div className='main__tags'>
-                  <span className='main__card--tag'>Self</span>
+                  <span className='main__card--tag'><img className='main__tag--image' src='./assets/Unicorn.png' alt='tag-image'></img>Self</span>
                 </div>
                 <img className='main__card--image' src='./assets/3.2.jpg' alt='card_image'></img>
               </div>
@@ -151,7 +151,7 @@ export default function App() {
           <div className='main__card'>
               <div className='main__card--img-block'>
                 <div className='main__tags'>
-                  <span className='main__card--tag'>Self</span>
+                  <span className='main__card--tag'><img className='main__tag--image' src='./assets/Unicorn.png' alt='tag-image'></img>Self</span>
                 </div>
                 <img className='main__card--image' src='./assets/3.3.jpg' alt='card_image'></img>
               </div>
@@ -187,7 +187,7 @@ export default function App() {
             <h2 className='footer__feedback--large-text'>Одно письмо в неделю со свежими новостями и акциями</h2>
             <div className='footer__input-block'>
               <input className='footer__input--email' type='email' name='email' placeholder='Ваш e-mail'></input>
-              <button className='footer__input--btn'>1333</button>
+              <button className='footer__input--btn'><img className='footer__btn--image' src='./assets/footer/btn.png' alt='btn_img'></img></button>
             </div>
             <span className='footer__feedback--small-text'>Подписываясь, я соглашаюсь на обработку персональных данных в соответствии с ФЗ РФ № 152-ФЗ «О персональных данных», а также с Политикой конфиденциальности</span>
           </div>
