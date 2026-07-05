@@ -4,6 +4,7 @@
 }
 body
 {
+  user-select: none;
   margin: 0;
 }
 button

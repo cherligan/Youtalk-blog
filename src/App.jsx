@@ -12,13 +12,13 @@ export default function App() {
           <a className='header__nav--item'>Для бизнеса</a>
           <a className='header__nav--item'>Психологам</a>
           <a className='header__nav--item'>Сертификат</a>
-          <a className='header__nav--item'>Материалы</a>
+          <a className='header__nav--item'>Материалы <img src='./assets/arD.png' alt='arrow'></img></a>
           <a className='header__nav--item'>FAQ</a>
         </nav>
         <button className='header__btn'>Подобрать психолога</button>
       </header>
       <main className='main'>
-        <span className='main__path-to-blog'>Главная Блог</span>
+        <span className='main__path-to-blog'>Главная <img src='./assets/arR.png' alt='arrow'></img> Блог</span>
         <h1 className='main__page-name'>Блог</h1>
         <div className='main__nav'>
           <button className='main__nav--item'><img className='main__item--image' src='./assets/Smiling_Face.png' alt='nav_img'></img>Все</button>
@@ -33,13 +33,13 @@ export default function App() {
         </div>
         <div className='main__content'>
           <div className='main__big-cards'>
-            <div className='main__card'>
+            <div className='main__big-card'>
               <div className='main__card--img-block'>
                 <div className='main__tags'>
                   <span className='main__card--tag'><img className='main__tag--image' src='./assets/Unicorn.png' alt='tag-image'></img>Самооценка и самопринятие</span>
                   <span className='main__card--tag'><img className='main__tag--image' src='./assets/Unicorn.png' alt='tag-image'></img>Self</span>
                 </div>
-                <img className='main__big-card--image-eggs' src='./assets/eggs.png' alt='card_image'></img>
+                <img className='main__big-card--image' src='./assets/eggs.png' alt='card_image'></img>
               </div>
               <div className='main__card--text-block'>
                 <div className='main__card--text-block-main'>
@@ -50,7 +50,7 @@ export default function App() {
                 <span className='main__text--small'>21.08.2021</span>
               </div>
             </div>
-            <div className='main__card'>
+            <div className='main__big-card'>
               <div className='main__card--img-block'>
                 <div className='main__tags'>
                   <span className='main__card--tag'><img className='main__tag--image' src='./assets/Unicorn.png' alt='tag-image'></img>Self</span>
