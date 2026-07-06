@@ -521,4 +521,39 @@ footer
     justify-content: space-between;
     gap: 4px;
   }
+  .footer
+  {
+    padding: 40px 19px;
+  }
+  .footer__top
+  {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 23px;
+  }
+  .footer__links-block
+  {
+    width: 100%;
+    grid-column: 1/4;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer__feedback
+  {
+    width: 100%;
+    grid-column: 1/4;
+  }
+  .footer__icons
+  {
+    width: 100%;
+    grid-column: 1/3;
+    margin-top: 0;
+  }
+  .footer__bottom
+  {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
