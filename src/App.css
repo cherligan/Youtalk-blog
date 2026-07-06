@@ -473,11 +473,16 @@ footer
 {
   header
   {
+    height: 74px;
     padding: 0 24px;
   }
   main
   {
     padding: 78px 20px 0px 20px;
+  }
+  .main__content
+  {
+    gap: 16px;
   }
   .main__page-name
   {
@@ -555,5 +560,33 @@ footer
   {
     flex-direction: column;
     gap: 20px;
+  }
+  @media (max-width: 320px) 
+  {
+    header
+    {
+      height: 58px;
+      padding: 0 12px;
+    }
+    main
+    {
+      padding-top: 58px;
+    }
+    .main__content
+    {
+      gap: 16px;
+    }
+    .main__page-name
+    {
+      margin: 24px 0 24px 0;
+    }
+    .footer__input--btn
+    {
+      display: none;
+    }
+    .footer__bottom
+    {
+      margin-top: -40px;
+    }
   }
 }
