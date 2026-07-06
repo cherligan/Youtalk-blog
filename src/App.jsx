@@ -49,8 +49,7 @@ const burgerClick = () =>
           <button className='main__nav--item'>Личное здоровье</button>
         </div>
         <div className='main__content'>
-          <div className='main__big-cards'>
-            <div className='main__big-card'>
+          <div className='main__big-card'>
               <div className='main__card--img-block'>
                 <div className='main__tags'>
                   <span className='main__card--tag'><img className='main__tag--image' src='./assets/Unicorn.png' alt='tag-image'></img>Самооценка и самопринятие</span>
@@ -66,8 +65,8 @@ const burgerClick = () =>
                 </div>
                 <span className='main__text--small'>21.08.2021</span>
               </div>
-            </div>
-            <div className='main__big-card'>
+          </div>
+          <div className='main__big-card'>
               <div className='main__card--img-block'>
                 <div className='main__tags'>
                   <span className='main__card--tag'><img className='main__tag--image' src='./assets/Unicorn.png' alt='tag-image'></img>Self</span>
@@ -82,7 +81,6 @@ const burgerClick = () =>
                 </div>
                 <span className='main__text--small'>11.08.2021</span>
               </div>
-            </div>
           </div>
           <div className='main__card'>
               <div className='main__card--img-block'>
