@@ -184,19 +184,21 @@ const burgerClick = () =>
       </main>
       <footer className='footer'>
         <div className='footer__top'>
-          <div className='footer__links'>
-            <a className='footer__link'>О нас</a>
-            <a className='footer__link'>Тарифы</a>
-            <a className='footer__link'>Для бизнеса</a>
-            <a className='footer__link'>Психологам</a>
-            <a className='footer__link'>FAQ</a>
-          </div>
-          <div className='footer__links'>
-            <a className='footer__link'>Блог</a>
-            <a className='footer__link'>Вебинары</a>
-            <a className='footer__link'>Подкаст</a>
-            <a className='footer__link'>Сертификат</a>
-            <a className='footer__link'>Контакты</a>
+          <div className='footer__links-block'>
+            <div className='footer__links'>
+              <a className='footer__link'>О нас</a>
+              <a className='footer__link'>Тарифы</a>
+              <a className='footer__link'>Для бизнеса</a>
+              <a className='footer__link'>Психологам</a>
+              <a className='footer__link'>FAQ</a>
+            </div>
+            <div className='footer__links'>
+              <a className='footer__link'>Блог</a>
+              <a className='footer__link'>Вебинары</a>
+              <a className='footer__link'>Подкаст</a>
+              <a className='footer__link'>Сертификат</a>
+              <a className='footer__link'>Контакты</a>
+            </div>
           </div>
           <div className='footer__feedback'>
             <h2 className='footer__feedback--large-text'>Одно письмо в неделю со свежими новостями и акциями</h2>
