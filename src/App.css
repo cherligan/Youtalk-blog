@@ -493,4 +493,32 @@ footer
   {
     white-space: nowrap;
   }
+  .main__card
+  {
+    grid-column: span 6;
+  }
+  
+  .main__card--img-block
+  {
+    overflow: hidden;
+  }
+  .main__big-card--image
+  {
+    width: 100%;
+    margin-top: -5px;
+  }
+  .main__card--text-block
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 16px;
+  }
+  .main__card--text-block-main
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 4px;
+  }
 }
