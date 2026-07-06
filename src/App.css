@@ -403,7 +403,7 @@ footer
 {
   header
   {
-    padding: 32px;
+    padding: 0 32px;
   }
   .header__nav
   {
@@ -422,7 +422,7 @@ footer
 {
   header
   {
-    padding: 20px;
+    padding: 0 20px;
   }
   .header__nav
   {
@@ -467,5 +467,30 @@ footer
   .footer__icons
   {
     margin-top: 26px;
+  }
+}
+@media (max-width: 414px) 
+{
+  header
+  {
+    padding: 0 24px;
+  }
+  main
+  {
+    padding: 78px 20px 0px 20px;
+  }
+  .main__page-name
+  {
+    margin: 32px 0 24px 0;
+  }
+  .main__nav
+  {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+  }
+  .main__nav--item
+  {
+    white-space: nowrap;
   }
 }
