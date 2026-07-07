@@ -9,14 +9,14 @@ const burgerClick = () =>
     return(
         <>
             <header className='header'>
-                <img src='./assets/logo.png' className='header__logo' alt='logo'></img>
+                <img src='/assets/logo.png' className='header__logo' alt='logo'></img>
                 <nav className='header__nav'>
                 <a href='#about' className='header__nav--item'>О нас</a>
                 <a href='#tariffs' className='header__nav--item'>Тарифы</a>
                 <a href='#business' className='header__nav--item'>Для бизнеса</a>
                 <a href='#psychologists' className='header__nav--item'>Психологам</a>
                 <a href='#certificate' className='header__nav--item'>Сертификат</a>
-                <a href='#materials' className='header__nav--item'>Материалы <img src='./assets/arD.png' alt='arrow'></img></a>
+                <a href='#materials' className='header__nav--item'>Материалы <img src='/assets/arD.png' alt='arrow'></img></a>
                 <a href='#faq' className='header__nav--item'>FAQ</a>
                 </nav>
                 <button className='header__btn'>Подобрать психолога</button>

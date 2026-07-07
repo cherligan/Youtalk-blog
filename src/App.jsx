@@ -1,8 +1,14 @@
 import Footer from '../public/components/Footer';
 import Header from '../public/components/Header';
+import Article from '../public/Article';
 import './App.css'
 import { useState } from 'react'
 export default function App() {
+const pathname = window.location.pathname;
+if(pathname.startsWith('/article/'))
+{
+  return <Article></Article>;
+}
 const [isOpen, setIsOpen] = useState(false);
 const burgerClick = () =>
 {

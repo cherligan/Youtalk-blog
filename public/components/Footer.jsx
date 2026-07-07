@@ -24,16 +24,16 @@ export default function Footer()
                     <h2 className='footer__feedback--large-text'>Одно письмо в неделю со свежими новостями и акциями</h2>
                     <div className='footer__input-block'>
                     <input className='footer__input--email' type='email' name='email' placeholder='Ваш e-mail'></input>
-                    <button className='footer__input--btn'><img className='footer__btn--image' src='./assets/footer/btn.png' alt='btn_img'></img></button>
+                    <button className='footer__input--btn'><img className='footer__btn--image' src='/assets/footer/btn.png' alt='btn_img'></img></button>
                     </div>
                     <span className='footer__feedback--small-text'>Подписываясь, я соглашаюсь на обработку персональных данных в соответствии с ФЗ РФ № 152-ФЗ «О персональных данных», а также с Политикой конфиденциальности</span>
                 </div>
                 <div className='footer__icons'>
-                    <img className='footer__icon-logo' alt='icon' src='./assets/footer/sk.png'></img>
-                    <img className='footer__icon' alt='icon' src='./assets/footer/vk.png'></img>
-                    <img className='footer__icon' alt='icon' src='./assets/footer/tg.png'></img>
-                    <img className='footer__icon' alt='icon' src='./assets/footer/tw.png'></img>
-                    <img className='footer__icon' alt='icon' src='./assets/footer/ya.png'></img>
+                    <img className='footer__icon-logo' alt='icon' src='/assets/footer/sk.png'></img>
+                    <img className='footer__icon' alt='icon' src='/assets/footer/vk.png'></img>
+                    <img className='footer__icon' alt='icon' src='/assets/footer/tg.png'></img>
+                    <img className='footer__icon' alt='icon' src='/assets/footer/tw.png'></img>
+                    <img className='footer__icon' alt='icon' src='/assets/footer/ya.png'></img>
                 </div>
                 </div>
                 <div className='footer__bottom'>
