@@ -28,7 +28,6 @@ header
 {
   position: fixed;
   display: flex;
-  box-sizing: border-box;
   align-items: center;
   width: 100vw;
   height: 78px;
@@ -111,7 +110,6 @@ header
 }
 main
 {
-  width: 100vw;
   display: flex;
   flex-direction: column;
   padding: 78px 120px 0px 120px;
@@ -151,7 +149,7 @@ main
   font-weight: 600;
   padding: 6px 8px;
 }
-.main__nav--item:active
+.main__nav--item:focus
 {
   border: 2px solid #16C8BB;
 }
@@ -178,6 +176,7 @@ main
 }
 .main__big-card
 {
+  text-decoration: none;
   grid-column: span 3;
 }
 .main__tags
@@ -300,6 +299,7 @@ footer
   font-size: 16px;
   font-weight: 700;
   color: #ffffff;
+  text-decoration: none;
 }
 .footer__feedback
 {

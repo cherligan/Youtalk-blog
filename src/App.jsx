@@ -1,3 +1,5 @@
+import Footer from '../public/components/Footer';
+import Header from '../public/components/Header';
 import './App.css'
 import { useState } from 'react'
 export default function App() {
@@ -8,32 +10,7 @@ const burgerClick = () =>
 }
   return (
     <div>
-      <header className='header'>
-        <img src='./assets/logo.png' className='header__logo' alt='logo'></img>
-        <nav className='header__nav'>
-          <a href='#about' className='header__nav--item'>О нас</a>
-          <a href='#tariffs' className='header__nav--item'>Тарифы</a>
-          <a href='#business' className='header__nav--item'>Для бизнеса</a>
-          <a href='#psychologists' className='header__nav--item'>Психологам</a>
-          <a href='#certificate' className='header__nav--item'>Сертификат</a>
-          <a href='#materials' className='header__nav--item'>Материалы <img src='./assets/arD.png' alt='arrow'></img></a>
-          <a href='#faq' className='header__nav--item'>FAQ</a>
-        </nav>
-        <button className='header__btn'>Подобрать психолога</button>
-        <button className='header__toggle-menu' onClick={burgerClick}><img src='./assets/toggleMenu.png' alt='toggleMenu'></img></button>
-        {isOpen && 
-        (
-          <div className='header__mobile-nav-pannel'>
-              <a href='#about' className='header__nav--item' onClick={() => setIsOpen(false)}>О нас</a>
-              <a href='#tariffs' className='header__nav--item' onClick={() => setIsOpen(false)}>Тарифы</a>
-              <a href='#business' className='header__nav--item' onClick={() => setIsOpen(false)}>Для бизнеса</a>
-              <a href='#psychologists' className='header__nav--item' onClick={() => setIsOpen(false)}>Психологам</a>
-              <a href='#certificate' className='header__nav--item' onClick={() => setIsOpen(false)}>Сертификат</a>
-              <a href='#materials' className='header__nav--item' onClick={() => setIsOpen(false)}>Материалы</a>
-              <a href='#faq' className='header__nav--item' onClick={() => setIsOpen(false)}>FAQ</a>
-          </div>
-        )}
-      </header>
+      <Header></Header>
       <main className='main'>
         <span className='main__path-to-blog'>Главная <img src='./assets/arR.png' alt='arrow'></img> Блог</span>
         <h1 className='main__page-name'>Блог</h1>
@@ -49,7 +26,7 @@ const burgerClick = () =>
           <button className='main__nav--item'>Личное здоровье</button>
         </div>
         <div className='main__content'>
-          <div className='main__big-card'>
+          <a href='./article/Article.html' className='main__big-card'>
               <div className='main__card--img-block'>
                 <div className='main__tags'>
                   <span className='main__card--tag'><img className='main__tag--image' src='./assets/Unicorn.png' alt='tag-image'></img>Самооценка и самопринятие</span>
@@ -65,7 +42,7 @@ const burgerClick = () =>
                 </div>
                 <span className='main__text--small'>21.08.2021</span>
               </div>
-          </div>
+          </a>
           <div className='main__big-card'>
               <div className='main__card--img-block'>
                 <div className='main__tags'>
@@ -182,46 +159,7 @@ const burgerClick = () =>
         </div>
         <button className='main__button'>Ещё</button>
       </main>
-      <footer className='footer'>
-        <div className='footer__top'>
-          <div className='footer__links-block'>
-            <div className='footer__links'>
-              <a className='footer__link'>О нас</a>
-              <a className='footer__link'>Тарифы</a>
-              <a className='footer__link'>Для бизнеса</a>
-              <a className='footer__link'>Психологам</a>
-              <a className='footer__link'>FAQ</a>
-            </div>
-            <div className='footer__links'>
-              <a className='footer__link'>Блог</a>
-              <a className='footer__link'>Вебинары</a>
-              <a className='footer__link'>Подкаст</a>
-              <a className='footer__link'>Сертификат</a>
-              <a className='footer__link'>Контакты</a>
-            </div>
-          </div>
-          <div className='footer__feedback'>
-            <h2 className='footer__feedback--large-text'>Одно письмо в неделю со свежими новостями и акциями</h2>
-            <div className='footer__input-block'>
-              <input className='footer__input--email' type='email' name='email' placeholder='Ваш e-mail'></input>
-              <button className='footer__input--btn'><img className='footer__btn--image' src='./assets/footer/btn.png' alt='btn_img'></img></button>
-            </div>
-            <span className='footer__feedback--small-text'>Подписываясь, я соглашаюсь на обработку персональных данных в соответствии с ФЗ РФ № 152-ФЗ «О персональных данных», а также с Политикой конфиденциальности</span>
-          </div>
-          <div className='footer__icons'>
-            <img className='footer__icon-logo' alt='icon' src='./assets/footer/sk.png'></img>
-            <img className='footer__icon' alt='icon' src='./assets/footer/vk.png'></img>
-            <img className='footer__icon' alt='icon' src='./assets/footer/tg.png'></img>
-            <img className='footer__icon' alt='icon' src='./assets/footer/tw.png'></img>
-            <img className='footer__icon' alt='icon' src='./assets/footer/ya.png'></img>
-          </div>
-        </div>
-        <div className='footer__bottom'>
-          <span className='footer__bottom--text'>©Youtalk, 2018 – 2022</span>
-          <span className='footer__bottom--text'>Юридические документы</span>
-          <span className='footer__bottom--text'>Способы оплаты</span>
-        </div>
-      </footer>
+      <Footer></Footer>
     </div>
   )
 }
