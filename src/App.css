@@ -296,16 +296,18 @@ main
 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 24px
 }
 .article-main__info-block
 {
-  grid-column: 1/3;
+  grid-column: 1/2;
 }
 .article-main__cards
 {
   display: flex;
   flex-direction: column;
   grid-column: 3;
+  grid-row: 1/8;
   gap: 24px;
 }
 .article-main__sign-card,
@@ -400,12 +402,18 @@ main
 {
   color: #A2A7B1;
 }
-.woman-card__text-block--list-item
+.article-main__list--item,
+.article-main__card-list--item
 {
   position: relative;
   padding-left: 16px;
 }
-.woman-card__text-block--list-item::before
+.article-main__card-list--item
+{
+  font-size: 14px;
+}
+.article-main__list--item::before,
+.article-main__card-list--item::before
 {
   content: '';
   position: absolute;
@@ -427,10 +435,47 @@ main
   line-height: 24px;
   font-weight: 700;
 }
-.woman-card__text-block--list
+.article-main__list,
+.article-main__card-list
 {
   list-style: none;
   padding-left: 0px;
+}
+.article-main__list
+{
+  text-decoration: underline;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.article-main__card-list
+{
+  display: flex;
+  flex-direction: column;
+  margin: 8px 0px 16px 0px;
+  gap: 8px;
+}
+.article-main__info-block--data
+{
+  display: flex;
+  gap: 20px;
+}
+.article-main__image
+{
+  grid-column: 1/2;
+  grid-row: 5;
+}
+.article-main__dialog-block,
+.article-main__text-block,
+.article-main__quote-card
+{
+  grid-column: 1/2;
+}
+.article-main__text--small
+{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
   margin: 0px 0px 16px 0px;
 }
 footer
