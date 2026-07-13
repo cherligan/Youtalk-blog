@@ -9,7 +9,13 @@ export default function Article()
             <main className="article-main">
                 
                 <div className="article-main__info-block">
-                    <span className='main__path-to-blog'>Главная <img src='/assets/arR.png' alt='arrow'></img> Блог <img src='/assets/arR.png' alt='arrow'></img> Как не утонуть в тревоге и управлять своими страхами</span>
+                    <div className="main__path-to-blog">
+                        <span className='main__path-to-blog--text'>Главная</span>
+                        <img className="main__path-to-blog--img" src='/assets/arR.png' alt='arrow'></img>
+                        <span className='main__path-to-blog--text'>Блог</span>
+                        <img className="main__path-to-blog--img" src='/assets/arR.png' alt='arrow'></img>
+                        <span className='main__path-to-blog--big-text'>Как не утонуть в тревоге и управлять своими страхами</span>
+                    </div>
                     <h1 className='article-main__page-name'>Как не утонуть в тревоге и управлять своими страхами</h1>
                     <div className="article-main__info-block--data">
                         <span className="main__author">Автор: Лиза Файнтух</span>
@@ -24,15 +30,15 @@ export default function Article()
                     <h3 className="article-main__text--small">Содержание</h3>
                     <div className="article-main__dialog">
                         <ul className="article-main__list">
-                            <li className="article-main__list--item">Как понять, что отношения с мамой были дисфункциональными и привели к травме?</li>
+                            <li className="article-main__list--always-item">Как понять, что отношения с мамой были дисфункциональными и привели к травме?</li>
                             <li className="article-main__list--item">Мама привет!</li>
-                            <ul type='none' >Под под заголовок под заголовком
+                            <ul className="article-main__list--none-item" type='none' >Под под заголовок под заголовком
                                 <ul>Под под под заголовок под заголовком
                                     <ul>Под под под под заголовок под заголовком</ul>
                                 </ul>
                             </ul>
                             <li className="article-main__list--item">Ну вот опять заголовок который как "привет мама"</li>
-                            <li className="article-main__list--item">Как понять, что вы страдаете от материнской травмы?</li>
+                            <li className="article-main__list--always-item">Как понять, что вы страдаете от материнской травмы?</li>
                         </ul>
                     </div>
                 </div>
