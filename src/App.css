@@ -939,6 +939,10 @@ footer
   {
     display: none;
   }
+  .article-main__image-block--img
+  {
+    margin-top: 0;
+  }
   footer
   {
     padding: 40px 32px;
@@ -1144,6 +1148,34 @@ footer
   .main__path-to-blog--img
   {
     height: 100%;
+  }
+  .first-exercise__quote-card
+  {
+    padding: 24px 0px 0px 0px;
+  }
+  .exercise__woman-quote-card
+  {
+    display: block;
+  }
+  .first-exercise__woman-quote-card--img
+  {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+  .second-exercise__hands-quote-card--img
+  {
+    width: 100%;
+  }
+  .third-exercise__cards-block
+  {
+    display: block;
+  }
+  .article-main__cards
+  {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 56px;
   }
   .footer
   {
