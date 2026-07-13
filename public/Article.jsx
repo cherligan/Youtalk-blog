@@ -6,8 +6,7 @@ export default function Article()
     return(
         <>
             <Header/>
-            <main className="article-main">
-                
+            <main className="article-main">       
                 <div className="article-main__info-block">
                     <div className="main__path-to-blog">
                         <span className='main__path-to-blog--text'>Главная</span>
@@ -25,7 +24,7 @@ export default function Article()
                         <span className="article-main__tags-block--tag">Self</span>
                     </div>
                 </div>
-                <img className="article-main__image" src="/assets/2.2.png"></img>
+                <img className="article-main__image" src="/assets/2.2.png" alt="article-main-img"></img>
                 <div className="article-main__dialog-block">
                     <h3 className="article-main__text--small">Содержание</h3>
                     <div className="article-main__dialog">
@@ -138,7 +137,7 @@ export default function Article()
                         <h2 className="bottom-block__left-part--small-text">Поможем подобрать специалиста по работе с подобным запросом</h2>
                         <button className="article-main__button">Подобрать психолога</button>
                     </div>
-                    <img className="article-main__bottom-block--img" src="/assets/article/article-main__bottom-block--img.png"></img>
+                    <img className="article-main__bottom-block--img" src="/assets/article/article-main__bottom-block--img.png" alt="bottom-block--img"></img>
                 </div>
                 <div className="article-main__cards">
                     <div className="article-main__sign-card">
@@ -152,10 +151,10 @@ export default function Article()
                     <div className="article-main__woman-card">
                         <div className="article-main__woman-card--img-block">
                             <div className="woman-card__img-block--tags">
-                                <span className="woman-card__img-block--tag"><img src="/assets/article/pen.png"></img>Переписка</span>
-                                <span className="woman-card__img-block--tag"><img src="/assets/article/camera.png"></img>Видео</span>
+                                <span className="woman-card__img-block--tag"><img src="/assets/article/pen.png" alt="pen"></img>Переписка</span>
+                                <span className="woman-card__img-block--tag"><img src="/assets/article/camera.png" alt="camera"></img>Видео</span>
                             </div>
-                            <img className="woman-card__img-block--img" src="/assets/article/woman.png"></img>
+                            <img className="woman-card__img-block--img" src="/assets/article/woman.png" alt="woman"></img>
                             <div className="woman-card__img-block--text-block">
                                 <h2 className="woman-card__img-block--text-large">Лилия</h2>
                                 <h3 className="woman-card__img-block--text-medium">Психолог</h3>
@@ -173,15 +172,15 @@ export default function Article()
                         </div>
                     </div>
                     <div className="article-main__image-card">
-                        <img className="article-main__image-card--img" src="/assets/article/third-card-img.png"></img>
+                        <img className="article-main__image-card--img" src="/assets/article/third-card-img.png" alt="image-card--img"></img>
                     </div>
                     <div className="article-main__buy-card">
                         <h2 className="article-main__buy-card--medium-text"><big className="buy-card__medium-text--big">8</big> Видео сессий</h2>
                         <span className="article-main__buy-card--small-text">Проработать небольшие проблемы и продвинуться в решении сложных запросов</span>
                         <h1 className="article-main__buy-card--large-text">18 500 &#8381;</h1>
                         <button className="article-main__button">Купить</button>
-                        <img className="article-main__buy-card--red-gift" src="/assets/article/red-gift.png"></img>
-                        <img className="article-main__buy-card--blue-gift" src="/assets/article/blue-gift.png"></img>
+                        <img className="article-main__buy-card--red-gift" src="/assets/article/red-gift.png" alt="red-gift"></img>
+                        <img className="article-main__buy-card--blue-gift" src="/assets/article/blue-gift.png" alt="blue-gift"></img>
                     </div>
                 </div>
             </main>

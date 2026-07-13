@@ -49,7 +49,7 @@ const burgerClick = () =>
                 <span className='main__text--small'>21.08.2021</span>
               </div>
           </a>
-          <div className='main__big-card'>
+          <a href='./article/Article' className='main__big-card'>
               <div className='main__card--img-block'>
                 <div className='main__tags'>
                   <span className='main__card--tag'><img className='main__tag--image' src='./assets/Unicorn.png' alt='tag-image'></img>Self</span>
@@ -64,8 +64,8 @@ const burgerClick = () =>
                 </div>
                 <span className='main__text--small'>11.08.2021</span>
               </div>
-          </div>
-          <div className='main__card'>
+          </a>
+          <a href='./article/Article' className='main__card'>
               <div className='main__card--img-block'>
                 <div className='main__tags'>
                   <span className='main__card--tag'><img className='main__tag--image' src='./assets/Unicorn.png' alt='tag-image'></img>Самооценка и самопринятие</span>
@@ -81,8 +81,8 @@ const burgerClick = () =>
                 </div>
                 <span className='main__text--small'>21.08.2021</span>
               </div>
-          </div>
-          <div className='main__card'>
+          </a>
+          <a href='./article/Article' className='main__card'>
               <div className='main__card--img-block'>
                 <div className='main__tags'>
                   <span className='main__card--tag'><img className='main__tag--image' src='./assets/Unicorn.png' alt='tag-image'></img>Self</span>
@@ -97,8 +97,8 @@ const burgerClick = () =>
                 </div>
                 <span className='main__text--small'>11.08.2021</span>
               </div>
-          </div>
-          <div className='main__card'>
+          </a>
+          <a href='./article/Article' className='main__card'>
               <div className='main__card--img-block'>
                 <div className='main__tags'>
                   <span className='main__card--tag'><img className='main__tag--image' src='./assets/Unicorn.png' alt='tag-image'></img>Self</span>
@@ -113,8 +113,8 @@ const burgerClick = () =>
                 </div>
                 <span className='main__text--small'>07.08.2021</span>
               </div>
-          </div>
-          <div className='main__card'>
+          </a>
+          <a href='./article/Article' className='main__card'>
               <div className='main__card--img-block'>
                 <div className='main__tags'>
                   <span className='main__card--tag'><img className='main__tag--image' src='./assets/Unicorn.png' alt='tag-image'></img>Self</span>
@@ -129,8 +129,8 @@ const burgerClick = () =>
                 </div>
                 <span className='main__text--small'>21.08.2021</span>
               </div>
-          </div>
-          <div className='main__card'>
+          </a>
+          <a href='./article/Article' className='main__card'>
               <div className='main__card--img-block'>
                 <div className='main__tags'>
                   <span className='main__card--tag'><img className='main__tag--image' src='./assets/Unicorn.png' alt='tag-image'></img>Self</span>
@@ -145,8 +145,8 @@ const burgerClick = () =>
                 </div>
                 <span className='main__text--small'>11.08.2021</span>
               </div>
-          </div>
-          <div className='main__card'>
+          </a>
+          <a href='./article/Article' className='main__card'>
               <div className='main__card--img-block'>
                 <div className='main__tags'>
                   <span className='main__card--tag'><img className='main__tag--image' src='./assets/Unicorn.png' alt='tag-image'></img>Self</span>
@@ -161,7 +161,7 @@ const burgerClick = () =>
                 </div>
                 <span className='main__text--small'>07.08.2021</span>
               </div>
-          </div>
+          </a>
         </div>
         <button className='main__button'>Ещё</button>
       </main>
