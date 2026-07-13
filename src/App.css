@@ -789,7 +789,6 @@ footer
 .footer__top
 {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 24px;
 }
@@ -813,6 +812,7 @@ footer
 }
 .footer__feedback
 {
+  width: 486px;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -939,6 +939,14 @@ footer
   footer
   {
     padding: 40px 32px;
+  }
+  .footer__top
+  {
+    gap: 21px;
+  }
+  .footer__feedback
+  {
+    width: 450px;
   }
 }
 @media (max-width: 768px)
