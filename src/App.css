@@ -534,7 +534,7 @@ main
 .article-main__info-block--data
 {
   display: flex;
-  gap: 20px;
+  gap: 8px;
 }
 .main__author,
 .main__date
@@ -979,12 +979,70 @@ footer
   {
     grid-column: span 3;
   }
+  .article-main
+  {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 59px;
+  }
+  .article-main__cards
+  {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 481px 242px;
+  }
+  .article-main__sign-card
+  {
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding: 23px;
+  }
+  .article-main__sign-card,
+  .article-main__woman-card,
+  .article-main__image-card,
+  .article-main__buy-card
+  {
+    width: 100%;
+    height: 100%;
+  }
+  .article-main__sign-card--img
+  {
+    width: 257px;
+    height: 206px;
+  }
+  .article-main__woman-card
+  {
+    grid-column: 2;
+    grid-row: 1;
+    padding: 0px 52px 36px 52px;
+  }
+  .woman-card__img-block--tags
+  {
+    left: -36px;
+  }
+  .article-main__image-card
+  {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .article-main__buy-card
+  {
+    grid-column: 2;
+    grid-row: 2;
+    padding: 24px;
+    gap: 14px;
+  }
   footer
   {
     padding: 40px 20px;
   }
   .footer__top
   {
+    flex-wrap: wrap;
     margin-bottom: 0;
   }
   .footer__feedback

@@ -13,51 +13,10 @@ export default function Article()
                     <h1 className='article-main__page-name'>Как не утонуть в тревоге и управлять своими страхами</h1>
                     <div className="article-main__info-block--data">
                         <span className="main__author">Автор: Лиза Файнтух</span>
+                        <span className="article-main__tags-block--tag">&#183;</span>
                         <span className="main__date">21.08.2021</span>
-                    </div>
-                </div>
-                <div className="article-main__cards">
-                    <div className="article-main__sign-card">
-                        <img className="article-main__sign-card--img" src="/assets/article/card-img.png" alt="card-img"></img>
-                        <div className="article-main__sign-card--text-block">
-                            <h2 className="article-main__card--text-large">Загружаем свободные окошки</h2>
-                            <span className="article-main__card--text-small">Все в порядке, сейчас мы перенаправим вас в сервис записи Qlick, через который удобно выбрать дату,  время встречи и оплатить её</span>
-                        </div>
-                        <button className="article-main__button">Подробнее</button>
-                    </div>
-                    <div className="article-main__woman-card">
-                        <div className="article-main__woman-card--img-block">
-                            <div className="woman-card__img-block--tags">
-                                <span className="woman-card__img-block--tag"><img src="/assets/article/pen.png"></img>Переписка</span>
-                                <span className="woman-card__img-block--tag"><img src="/assets/article/camera.png"></img>Видео</span>
-                            </div>
-                            <img className="woman-card__img-block--img" src="/assets/article/woman.png"></img>
-                            <div className="woman-card__img-block--text-block">
-                                <h2 className="woman-card__img-block--text-large">Лилия</h2>
-                                <h3 className="woman-card__img-block--text-medium">Психолог</h3>
-                                <span className="woman-card__img-block--text-small">Опыт 6 лет 43 года </span>
-                            </div>
-                        </div>
-                        <div className="article-main__woman-card--text-block">
-                            <h2 className="woman-card__text-block--text-large">С чем работает психолог</h2>
-                            <ul className="article-main__card-list">
-                                <li className="article-main__card-list--item">Тревога, тревожности</li>
-                                <li className="article-main__card-list--item">Подавленность</li>
-                                <li className="article-main__card-list--item">Тревога и панические атаки</li>
-                            </ul>
-                            <button className="article-main__button">Подробнее</button>
-                        </div>
-                    </div>
-                    <div className="article-main__image-card">
-                        <img className="article-main__image-card--img" src="/assets/article/third-card-img.png"></img>
-                    </div>
-                    <div className="article-main__buy-card">
-                        <h2 className="article-main__buy-card--medium-text"><big className="buy-card__medium-text--big">8</big> Видео сессий</h2>
-                        <span className="article-main__buy-card--small-text">Проработать небольшие проблемы и продвинуться в решении сложных запросов</span>
-                        <h1 className="article-main__buy-card--large-text">18 500 &#8381;</h1>
-                        <button className="article-main__button">Купить</button>
-                        <img className="article-main__buy-card--red-gift" src="/assets/article/red-gift.png"></img>
-                        <img className="article-main__buy-card--blue-gift" src="/assets/article/blue-gift.png"></img>
+                        <span className="article-main__tags-block--tag">&#183;</span>
+                        <span className="article-main__tags-block--tag">Self</span>
                     </div>
                 </div>
                 <img className="article-main__image" src="/assets/2.2.png"></img>
@@ -174,6 +133,50 @@ export default function Article()
                         <button className="article-main__button">Подобрать психолога</button>
                     </div>
                     <img className="article-main__bottom-block--img" src="/assets/article/article-main__bottom-block--img.png"></img>
+                </div>
+                <div className="article-main__cards">
+                    <div className="article-main__sign-card">
+                        <img className="article-main__sign-card--img" src="/assets/article/card-img.png" alt="card-img"></img>
+                        <div className="article-main__sign-card--text-block">
+                            <h2 className="article-main__card--text-large">Загружаем свободные окошки</h2>
+                            <span className="article-main__card--text-small">Все в порядке, сейчас мы перенаправим вас в сервис записи Qlick, через который удобно выбрать дату,  время встречи и оплатить её</span>
+                        </div>
+                        <button className="article-main__button">Подробнее</button>
+                    </div>
+                    <div className="article-main__woman-card">
+                        <div className="article-main__woman-card--img-block">
+                            <div className="woman-card__img-block--tags">
+                                <span className="woman-card__img-block--tag"><img src="/assets/article/pen.png"></img>Переписка</span>
+                                <span className="woman-card__img-block--tag"><img src="/assets/article/camera.png"></img>Видео</span>
+                            </div>
+                            <img className="woman-card__img-block--img" src="/assets/article/woman.png"></img>
+                            <div className="woman-card__img-block--text-block">
+                                <h2 className="woman-card__img-block--text-large">Лилия</h2>
+                                <h3 className="woman-card__img-block--text-medium">Психолог</h3>
+                                <span className="woman-card__img-block--text-small">Опыт 6 лет 43 года </span>
+                            </div>
+                        </div>
+                        <div className="article-main__woman-card--text-block">
+                            <h2 className="woman-card__text-block--text-large">С чем работает психолог</h2>
+                            <ul className="article-main__card-list">
+                                <li className="article-main__card-list--item">Тревога, тревожности</li>
+                                <li className="article-main__card-list--item">Подавленность</li>
+                                <li className="article-main__card-list--item">Тревога и панические атаки</li>
+                            </ul>
+                            <button className="article-main__button">Подробнее</button>
+                        </div>
+                    </div>
+                    <div className="article-main__image-card">
+                        <img className="article-main__image-card--img" src="/assets/article/third-card-img.png"></img>
+                    </div>
+                    <div className="article-main__buy-card">
+                        <h2 className="article-main__buy-card--medium-text"><big className="buy-card__medium-text--big">8</big> Видео сессий</h2>
+                        <span className="article-main__buy-card--small-text">Проработать небольшие проблемы и продвинуться в решении сложных запросов</span>
+                        <h1 className="article-main__buy-card--large-text">18 500 &#8381;</h1>
+                        <button className="article-main__button">Купить</button>
+                        <img className="article-main__buy-card--red-gift" src="/assets/article/red-gift.png"></img>
+                        <img className="article-main__buy-card--blue-gift" src="/assets/article/blue-gift.png"></img>
+                    </div>
                 </div>
             </main>
             <Footer/>

@@ -20,7 +20,7 @@ const burgerClick = () =>
                 <a href='#faq' className='header__nav--item'>FAQ</a>
                 </nav>
                 <button className='header__btn'>Подобрать психолога</button>
-                <button className='header__toggle-menu' onClick={burgerClick}><img src='./assets/toggleMenu.png' alt='toggleMenu'></img></button>
+                <button className='header__toggle-menu' onClick={burgerClick}><img src='/assets/toggleMenu.png' alt='toggleMenu'></img></button>
                 {isOpen && 
                 (
                 <div className='header__mobile-nav-pannel'>
