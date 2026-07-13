@@ -1231,6 +1231,33 @@ footer
     {
       margin: 24px 0 24px 0;
     }
+    .article-main__page-name
+    {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 32px;
+    }
+    .article-main__info-block--data
+    {
+      gap: 4px;
+    }
+    .main__author,
+    .main__date
+    {
+      white-space: nowrap;
+    }
+    .first-exercise__quote-card
+    {
+      padding: 0;
+    }
+    .article-main__woman-card
+    {
+      padding: 0px 19px;
+    }
+    .woman-card__img-block--tags
+    {
+      left: -4px;
+    }
     .footer__input--btn
     {
       display: none;
