@@ -5,21 +5,21 @@
 }
 @font-face {
     font-family: 'Montserrat';
-    src: url('./assets/fonts/static/Montserrat-Bold.woff2') format('woff2');
+    src: url('/assets/fonts/static/Montserrat-Bold.woff2') format('woff2');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
   }
 @font-face {
     font-family: 'Montserrat';
-    src: url('./assets/fonts/static/Montserrat-Medium.woff2') format('woff2');
+    src: url('/assets/fonts/static/Montserrat-Medium.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
   }
 @font-face {
     font-family: 'Montserrat';
-    src: url('./assets/fonts/static/Montserrat-Light.woff2') format('woff2');
+    src: url('/assets/fonts/static/Montserrat-Light.woff2') format('woff2');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -301,29 +301,33 @@ main
 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 24px
+  gap: 24px;
+  margin-bottom: 108px;
 }
 .article-main__info-block
 {
-  grid-column: 1/3;
+  grid-column: 1/2;
 }
 .article-main__cards
 {
   display: flex;
   flex-direction: column;
   grid-column: 3;
-  grid-row: 1/20;
+  grid-row: 1/10;
   gap: 24px;
   padding-top: 70px;
 }
 .article-main__sign-card,
 .article-main__woman-card,
+.article-main__image-card,
 .article-main__buy-card
 {
-  width: 282px;
   display: flex;
   flex-direction: column;
   border-radius: 16px;
+  width: 100%;
+  overflow: hidden;
+  align-self: center;
 }
 .article-main__sign-card
 {
@@ -532,6 +536,14 @@ main
   display: flex;
   gap: 20px;
 }
+.main__author,
+.main__date
+{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #494949;
+}
 .article-main__image
 {
   width: 690px;
@@ -580,6 +592,7 @@ main
   background-color: #F3F7FE;
   border-radius: 16px;
   padding: 34px 24px 24px 24px;
+  margin-top: 16px;
 }
 .article-main__italic--text
 {
@@ -645,13 +658,15 @@ main
 {
   gap: 24px;
 }
-.article-main__exercises-block--first-exercise
+.article-main__exercises-block--first-exercise,
+.article-main__exercises-block--second-exercise,
+.article-main__exercises-block--third-exercise
 {
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
-.exercises-block__quote-card
+.first-exercise__quote-card
 {
   position: relative;
   display: flex;
@@ -659,11 +674,112 @@ main
   text-align: center;
   padding: 24px 104px 48px 104px;
 }
-.exercises-block__quote-card--img
+.first-exercise__quote-card--img
 {
   position: absolute;
   top: 0px;
   z-index: -1;
+}
+.exercise__woman-quote-card
+{
+  display: flex;
+  gap: 24px;
+}
+.exercises-block__exercise--large-text
+{
+  margin: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.first-exercise,
+.second-exercise,
+.third-exercise
+{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-radius: 16px;
+  padding: 24px;
+}
+.first-exercise
+{
+  background-color: #FEFAEC;
+}
+.second-exercise
+{
+  background-color: #FFF3EB;
+}
+.third-exercise
+{
+  background-color: #03B2A51A;
+}
+.third-exercise__cards-block
+{
+  display: flex;
+  gap: 24px;
+}
+.third-exercise__cards-block--card
+{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.third-card__img--flash
+{
+  width: 178.75px;
+  align-self: center;
+}
+.article-main__tags-block
+{
+  grid-column: 1/2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  row-gap: 4px;
+  margin-bottom: 24px;
+}
+.article-main__tags-block--tag
+{
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2963A3;
+}
+.article-main__bottom-block
+{
+  grid-column: 1/4;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid #DEDEDE;
+  padding-top: 72px;
+}
+.article-main__bottom-block--left-part
+{
+  grid-column: 1/2;
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+.article-main__bottom-block--img
+{
+  grid-column: 3/4;
+}
+.bottom-block__left-part--large-text
+{
+  grid-column: 1/3;
+  margin: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+.bottom-block__left-part--small-text
+{
+  grid-column: 1/3;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0;
 }
 footer
 {
@@ -806,6 +922,19 @@ footer
   main
   {
     padding: 78px 32px 0px 32px;
+  }
+  .article-main
+  {
+    margin-bottom: 71px;
+  }
+  .article-main__cards
+  {
+    width: 222px;
+  }
+  .article-main__bottom-block,
+  .article-main__tags-block
+  {
+    display: none;
   }
   footer
   {

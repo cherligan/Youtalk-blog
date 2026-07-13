@@ -1,5 +1,6 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+
 export default function Article()
 {
     return(
@@ -100,19 +101,79 @@ export default function Article()
                 <div className="article-main__exercises-block">
                     <div className="article-main__exercises-block--first-exercise">
                         <h2 className="article-main__text">Чем шире доступный вам репертуар реакций и чем более осознанно вы можете выбирать из него то, что лучше всего подойдет в каждой конкретной ситуации, тем больше будет ваша устойчивость к стрессу, депрессии, неопределенности, да и к жизни в целом.</h2>
-                        <div className="exercises-block__quote-card">
+                        <div className="first-exercise__quote-card">
                             <span className="article-main__italic--text">Мы знаем, что нуждаться в помощи и поддержке в трудные периоды жизни абсолютно нормально для любого человека, и стремимся сделать психотерапию безопасной, удобной и доступной каждому</span>
-                            <img className="exercises-block__quote-card--img" src="/assets/article/blot.png" alt="blot"></img>
+                            <img className="first-exercise__quote-card--img" src="/assets/article/blot.png" alt="blot"></img>
                         </div>
                         <h2 className="article-main__text">Одна из ключевых задач психотерапии как раз и заключается в том, чтобы этот репертуар расширять и обучать человека пользоваться доступными ему реакциями в той последовательности, пропорции и объеме, которые подходят именно ему. Без оглядки на то, "как правильно" или "как у других".</h2>
-                        
+                        <div className="exercise__woman-quote-card">
+                            <img className="first-exercise__woman-quote-card--img" src="/assets/article/woman-quote-card.png" alt="woman-quote-card-img"></img>
+                            <h2 className="article-main__text">Чем шире доступный вам репертуар реакций и чем более осознанно вы можете выбирать из него то, что лучше всего подойдет в каждой конкретной ситуации, тем больше будет ваша устойчивость к стрессу, депрессии, неопределенности, да и к жизни в целом. А еще порой можно разрешить себе тревогу заесть чем-то вкусным. </h2>
+                        </div>
+                        <h2 className="article-main__text">Чем шире доступный вам репертуар реакций и чем более осознанно вы можете выбирать из него то, что лучше всего подойдет в каждой конкретной ситуации, тем больше будет ваша устойчивость к стрессу, депрессии, неопределенности, да и к жизни в целом.</h2>
+                        <div className="first-exercise">
+                            <h2 className="exercises-block__exercise--large-text">Упражнение #1</h2>
+                            <h2 className="article-main__text">Нужно последовательно напрягать и расслаблять каждую мышцу в теле на несколько секунд. Напрягать стоит довольно сильно, чтобы потом отчетливее ощущать расслабляющий эффект. Начать можно с пальцев ног и постепенно подниматься вверх. Смысл в том, чтобы через напряжение дать стрессу выход, а затем вновь привести себя в спокойное состояние через расслабление</h2>
+                        </div>
                     </div>
                     <div className="article-main__exercises-block--second-exercise">
-                        
+                        <div className="article-main__advices">
+                            <h2 className="article-main__advices--large-text">Что еще можно делать с тревогой?</h2>
+                            <ul className="article-main__advice-list">
+                                <li className="article-main__list--item">Управлять ей через что-то внешнее: включать музыку, которая создает другое настроение, сесть за работу с цифрами, которая быстренько активизирует другие участки мозга, читать блоги, которые вас успокаивают и отвлекают.</li>
+                                <li className="article-main__list--item">А еще порой можно разрешить себе тревогу заесть чем-то вкусным. Это, конечно, не самая здоровая стратегия, но в ряде ситуаций можно считать ее вполне рабочей. Особенно, когда внутренний ресурс на нуле, а поддерживающее окружение не в доступе.</li>
+                            </ul>
+                        </div>
+                        <div className="exercise__woman-quote-card">
+                            <img className="second-exercise__hands-quote-card--img" src="/assets/article/hands-quote-card.png" alt="hands-quote-card-img"></img>
+                            <h2 className="article-main__text">Чем шире доступный вам репертуар реакций и чем более осознанно вы можете выбирать из него то, что лучше всего подойдет в каждой конкретной ситуации, тем больше будет ваша устойчивость к стрессу.</h2>
+                        </div>
+                        <h2 className="article-main__text">Чем шире доступный вам репертуар реакций и чем более осознанно вы можете выбирать из него то, что лучше всего подойдет в каждой конкретной ситуации, тем больше будет ваша устойчивость к стрессу, депрессии, неопределенности, да и к жизни в целом.</h2>
+                        <div className="second-exercise">
+                            <h2 className="exercises-block__exercise--large-text">Упражнение #2</h2>
+                            <h2 className="article-main__text">Нужно последовательно напрягать и расслаблять каждую мышцу в теле на несколько секунд. Напрягать стоит довольно сильно, чтобы потом отчетливее ощущать расслабляющий эффект. Начать можно с пальцев ног и постепенно подниматься вверх. Смысл в том, чтобы через напряжение дать стрессу выход, а затем вновь привести себя в спокойное состояние через расслабление</h2>
+                        </div>
                     </div>
                     <div className="article-main__exercises-block--third-exercise">
-                        
+                        <div className="third-exercise__cards-block">
+                            <div className="third-exercise__cards-block--card">
+                                <img className="cards-block__card--img" src="/assets/article/cards-block__first-card--img.png" alt="first-card-img"></img>
+                                <h2 className="article-main__text">Чем шире доступный вам репертуар реакций и чем более осознанно вы можете выбирать из него то, что лучше всего подойдет в каждой конкретной ситуации, тем больше будет ваша устойчивость к стрессу, депрессии, неопределенности, да и к жизни в целом.</h2>
+                            </div>
+                            <div className="third-exercise__cards-block--card">
+                                <img className="cards-block__card--img" src="/assets/article/cards-block__second-card--img.png" alt="first-card-img"></img>
+                                <h2 className="article-main__text">Чем шире доступный вам репертуар реакций и чем более осознанно вы можете выбирать из него то, что лучше всего подойдет в каждой конкретной ситуации, тем больше будет ваша устойчивость к стрессу, депрессии, неопределенности, да и к жизни в целом.</h2>
+                            </div>
+                        </div>
+                        <img className="third-card__img--flash" src="/assets/article/flash.png" alt="flash"></img>
+                        <h2 className="article-main__text">Одна из ключевых задач психотерапии как раз и заключается в том, чтобы этот репертуар расширять и обучать человека пользоваться доступными ему реакциями в той последовательности, пропорции и объеме, которые подходят именно ему. Без оглядки на то, "как правильно" или "как у других".</h2>
+                        <div className="third-exercise">
+                            <h2 className="exercises-block__exercise--large-text">Упражнение #3</h2>
+                            <h2 className="article-main__text">Нужно последовательно напрягать и расслаблять каждую мышцу в теле на несколько секунд. Напрягать стоит довольно сильно, чтобы потом отчетливее ощущать расслабляющий эффект. Начать можно с пальцев ног и постепенно подниматься вверх. Смысл в том, чтобы через напряжение дать стрессу выход, а затем вновь привести себя в спокойное состояние через расслабление</h2>
+                        </div>
                     </div>
+                </div>
+                <div className="article-main__tags-block">
+                    <span className="article-main__tags-block--tag">Self</span>
+                    <span className="article-main__tags-block--tag">&#183;</span>
+                    <span className="article-main__tags-block--tag">Самооценка и самопринятие</span>
+                    <span className="article-main__tags-block--tag">&#183;</span>
+                    <span className="article-main__tags-block--tag">Самооценка и самопринятие</span>
+                    <span className="article-main__tags-block--tag">&#183;</span>
+                    <span className="article-main__tags-block--tag">Упражнения</span>
+                    <span className="article-main__tags-block--tag">Чувства и эмоции</span>
+                    <span className="article-main__tags-block--tag">&#183;</span>
+                    <span className="article-main__tags-block--tag">Самооценка и самопринятие</span>
+                    <span className="article-main__tags-block--tag">&#183;</span>
+                    <span className="article-main__tags-block--tag">Тревога</span>
+                </div>
+                <div className="article-main__bottom-block">
+                    <div className="article-main__bottom-block--left-part">
+                        <h1 className="bottom-block__left-part--large-text">Откликается проблема?</h1>
+                        <h2 className="bottom-block__left-part--small-text">Поможем подобрать специалиста по работе с подобным запросом</h2>
+                        <button className="article-main__button">Подобрать психолога</button>
+                    </div>
+                    <img className="article-main__bottom-block--img" src="/assets/article/article-main__bottom-block--img.png"></img>
                 </div>
             </main>
             <Footer/>

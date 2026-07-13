@@ -32,7 +32,7 @@ const burgerClick = () =>
           <button className='main__nav--item'>Личное здоровье</button>
         </div>
         <div className='main__content'>
-          <a href='./article/Article.html' className='main__big-card'>
+          <a href='./article/Article' className='main__big-card'>
               <div className='main__card--img-block'>
                 <div className='main__tags'>
                   <span className='main__card--tag'><img className='main__tag--image' src='./assets/Unicorn.png' alt='tag-image'></img>Самооценка и самопринятие</span>
